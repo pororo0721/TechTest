@@ -35,6 +35,12 @@
 // What yor're pleased with
 // What you would do with it if you had more time.
 
+// Expected output
+// | | 2 | 3 | 5 |
+// | 2 | 4 | 6 | 10 |
+// | 3 | 6 | 9 | 15 |
+// | 5 | 10 | 15 | 25 |
+
 
 // Solution
 function generatePrimes(n) {
@@ -62,16 +68,21 @@ function isPrime(n) {
   return true;
 }
 
+
 function printTable(primes) {
-  var table = "";
+  var table = "| | ";
   for (var i = 0; i < primes.length; i++) {
-    table += "| " + primes[i];
-    for (var j = 0; j < primes.length; j++) {
-      table += " | " + primes[i] * primes[j];
+    table += primes[i] + " | ";
+  }
+  table += "\n";
+  for (var j = 0; j < primes.length; j++) {
+    table += primes[j] + " | ";
+    for (var k = 0; k < primes.length; k++) {
+      table += (primes[j] * primes[k]) + " | ";
     }
     table += "\n";
   }
-  return table;
+  console.log(table);
 }
 
 // Test
@@ -81,8 +92,6 @@ console.log(printTable(primes));
 
 
 
-// Expected output
-// | | 2 | 3 | 5 |
-// | 2 | 4 | 6 | 10 |
-// | 3 | 6 | 9 | 15 |
-// | 5 | 10 | 15 | 25 |
+
+
+
