@@ -14,7 +14,7 @@ method to generate your primes.
 -  The application should output an N+1 x N+1 grid of numbers.
 
 
-## explanation
+## Explanation
 -  How to run it. 
 -  What you’re pleased with. 
 -  What you would do with it if you had more time. 
