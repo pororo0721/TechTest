@@ -79,7 +79,7 @@ function printTable(primes) {
     }
     table += "\n";
   }
-  console.log(table);
+  return table;
 }
 
 // Test
