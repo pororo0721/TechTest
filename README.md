@@ -17,10 +17,8 @@ method to generate your primes.
 ## Explanation
 -  How to run it. 
 
-| | 2 | 3 | 5 |
-| 2 | 4 | 6 | 10 |
-| 3 | 6 | 9 | 15 |
-| 5 | 10 | 15 | 25 |
+![Untitled-2022-03-18-1510](https://user-images.githubusercontent.com/79802132/159034960-234acb7a-9e62-4f19-8181-fbf81326e98b.png)
+
 
 Numbers 2, 3, and 5 in the first grid are prime numbers.
 The numbers written on the rest of the grid are multiples of 2, 3, 5.
