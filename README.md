@@ -16,5 +16,15 @@ method to generate your primes.
 
 ## Explanation
 -  How to run it. 
+
+| | 2 | 3 | 5 |
+| 2 | 4 | 6 | 10 |
+| 3 | 6 | 9 | 15 |
+| 5 | 10 | 15 | 25 |
+
+Numbers 2, 3, and 5 in the first grid are prime numbers.
+The numbers written on the rest of the grid are multiples of 2, 3, 5.
+
+
 -  What you’re pleased with. 
 -  What you would do with it if you had more time. 
