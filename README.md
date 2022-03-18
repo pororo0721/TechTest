@@ -23,15 +23,13 @@ method to generate your primes.
 Numbers 2, 3, and 5 in the first grid are prime numbers.
 The numbers written on the rest of the grid are multiples of 2, 3, 5.
 
-```sh
-What are Prime Numbers?
-```
+> What are Prime Numbers?
+
 In math, prime numbers are whole numbers greater than 1, that have only two factors – 1 and the number itself.
 Prime numbers are divisible only by the number 1 or itself. For example, 2, 3, 5, 7 and 11 are the first few prime numbers.
 
-```sh
-What is a Multiple?
-```
+> What is a Multiple?
+
 A multiple in math are the numbers you get when you multiply a certain number by an integer.
 
 -  What you’re pleased with. 
