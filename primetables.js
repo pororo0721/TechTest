@@ -43,7 +43,7 @@
 
 
 // Solution
-function generatePrimes(n) {
+function generatePrimes(n) {  
   var primes = [2];
   var nextPrime = 3;
   while (primes.length < n) {
@@ -56,17 +56,14 @@ function generatePrimes(n) {
 }
 
 function isPrime(n) {
-  var sqrtN = Math.sqrt(n);
-  for (var i = 0; i < primes.length; i++) {
-    if (primes[i] > sqrtN) {
-      return true;
-    }
-    if (n % primes[i] === 0) {
+  for (var i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) {
       return false;
     }
   }
   return true;
 }
+
 
 
 function printTable(primes) {
