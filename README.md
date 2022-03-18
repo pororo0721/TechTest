@@ -26,11 +26,17 @@ The numbers written on the rest of the grid are multiples of 2, 3, 5.
 > What are Prime Numbers?
 
 In math, prime numbers are whole numbers greater than 1, that have only two factors – 1 and the number itself.
-Prime numbers are divisible only by the number 1 or itself. For example, 2, 3, 5, 7 and 11 are the first few prime numbers.
+Prime numbers are divisible only by the number 1 or itself. 
+For example, 2, 3, 5, 7 and 11 are the first few prime numbers.
 
 > What is a Multiple?
 
 A multiple in math are the numbers you get when you multiply a certain number by an integer.
+
+For example, 
+multiples of 2 are: 4, 6, 8, 10..etc.
+multiples of 3 are: 6, 9, 12, 15.. etc. 
+multiples of 5 are: 10, 15, 20, 25..etc.
 
 -  What you’re pleased with. 
 -  What you would do with it if you had more time. 
