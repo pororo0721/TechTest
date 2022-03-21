@@ -68,13 +68,14 @@ function isPrime(n) {
 
 function printTable(primes) {
   var table = " | | ";
-  for (var i = 0; i < primes.length; i++) {
+  var primeLength = primes.length;
+  for (var i = 0; i < primeLength; i++) {
     table += primes[i] + " | ";
   }
   table += "\n";
-  for (var j = 0; j < primes.length; j++) {
+  for (var j = 0; j < primeLength; j++) {
     table += " | " + primes[j] + " | ";
-    for (var k = 0; k < primes.length; k++) {
+    for (var k = 0; k < primeLength; k++) {
       table += (primes[j] * primes[k]) + " | ";
     }
     table += "\n";
