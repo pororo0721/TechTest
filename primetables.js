@@ -67,13 +67,13 @@ function isPrime(n) {
 
 
 function printTable(primes) {
-  var table = "| | ";
+  var table = " | | ";
   for (var i = 0; i < primes.length; i++) {
     table += primes[i] + " | ";
   }
   table += "\n";
   for (var j = 0; j < primes.length; j++) {
-    table += "|" + primes[j] + " | ";
+    table += " | " + primes[j] + " | ";
     for (var k = 0; k < primes.length; k++) {
       table += (primes[j] * primes[k]) + " | ";
     }
