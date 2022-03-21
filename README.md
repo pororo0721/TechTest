@@ -25,7 +25,7 @@ The numbers written on the rest of the grid are multiples of 2, 3, 5.
 
 > What are Prime Numbers?
 
-In math, prime numbers are whole numbers greater than 1, that have only two factors – 1 and the number itself.
+In math, prime numbers are whole numbers greater than 1, that have only two factors : 1 and the number itself.
 Prime numbers are divisible only by the number 1 or itself. 
 For example, 2, 3, 5, 7 and 11 are the first few prime numbers.
 
@@ -54,5 +54,24 @@ function generatePrimes(n) {
   return primes;
 }
 ```
+A prime number starts at 2 because it is only divisible by the number 1 or itself. 
+Set the list containing 2 as a variable called primes, and set the next number 3 as the variable nextPrime.
+If the input value n is less than the length of the list, the next number nextPrime is sent to the function isPrime, which checks whether the variable is prime or not. If prime is correct, the variable nextPrime is added to the list primes and nextPrime is incremented by 1.
+
+As in the example value, when n=3, the primes returned by the function generatePrimes are [2,3,5].
+
+
+```sh
+function isPrime(n) {
+  for (var i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+```
+
+
 -  What you’re pleased with. 
 -  What you would do with it if you had more time. 
