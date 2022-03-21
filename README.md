@@ -86,6 +86,30 @@ For example, when 16 is divisible by 2, it means that it is also divisible by 8.
 
 ![image](https://user-images.githubusercontent.com/79802132/159277533-b868d461-0de7-4a2b-9f03-2b0012115240.png)
 
+```sh
+function printTable(primes) {
+  var table = " | | ";
+  for (var i = 0; i < primes.length; i++) {
+    table += primes[i] + " | ";
+  }
+  table += "\n";
+  for (var j = 0; j < primes.length; j++) {
+    table += " | " + primes[j] + " | ";
+    for (var k = 0; k < primes.length; k++) {
+      table += (primes[j] * primes[k]) + " | ";
+    }
+    table += "\n";
+  }
+  return table;
+}
+```
+It takes the value primes returned by the function generatePrimes() and creates the table in the function printTable().
+The application should print the numbers in an N+1 x N+1 grid, and the first grid is | |, 
+so create a variable called table | | to start first. 
+Then, by repeating the length of primes with the for statement, the list numbers of primes and | are added to the table.
+When all the numbers in primes are added to the table
+| | 2 | 3 | 5 | The first grid is complete. After completion, add a new line to draw the next second grid.
+
 
 -  What you’re pleased with. 
 -  What you would do with it if you had more time. 
