@@ -72,6 +72,20 @@ function isPrime(n) {
 }
 ```
 
+The function isPrime checks whether or not it is a prime number. 
+Basically, if a natural number from 2 to n-1 is divisible when divided, it is not a prime number.
+However, since all natural numbers from 2 to n-1 must be checked, the time complexity increases.
+
+To reduce time complexity, I use the divisor feature.
+Because of the properties of divisors, all divisors are symmetric with respect to the multiplication operation with respect to the central factor.
+
+For example, the factors of 16 are 1, 2, 4, 8, 16.
+where 2 X 8 = 16 is symmetric with 8 X 2 = 16.
+Therefore, when we find all the divisors of a particular natural number, we only need to check the middle divisor (square root).
+For example, when 16 is divisible by 2, it means that it is also divisible by 8.
+
+![image](https://user-images.githubusercontent.com/79802132/159277533-b868d461-0de7-4a2b-9f03-2b0012115240.png)
+
 
 -  What you’re pleased with. 
 -  What you would do with it if you had more time. 
