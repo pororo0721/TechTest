@@ -54,9 +54,9 @@ function generatePrimes(n) {
   return primes;
 }
 ```
-A prime number starts at 2 because it is only divisible by the number 1 or itself. 
-Set the list containing 2 as a variable called primes, and set the next number 3 as the variable nextPrime.
-If the input value n is less than the length of the list, the next number nextPrime is sent to the function isPrime, which checks whether the variable is prime or not. If prime is correct, the variable nextPrime is added to the list primes and nextPrime is incremented by 1.
+A prime number starts at 2 because it is only divisible by 1 or itself. 
+Set the list containing 2 to a variable called prime and the next number 3 to the variable nextPrime. 
+It iterates until the input value n is less than the length of the list, and the next number nextPrime is sent to the isPrime function to check whether the variable is prime or not. If the prime is correct, the variable nextPrime is added to the list of primes and nextPrime is incremented by 1.
 
 As in the example value, when n=3, the primes returned by the function generatePrimes are [2,3,5].
 
