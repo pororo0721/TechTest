@@ -13,6 +13,15 @@ method to generate your primes.
 -  You should input a whole number N, where is N is at least 1.
 -  The application should output an N+1 x N+1 grid of numbers.
 
+## Expected primes multiplication table when N is 3
+
+```sh
+
+| | 2 | 3 | 5 | 
+| 2 | 4 | 6 | 10 | 
+| 3 | 6 | 9 | 15 | 
+| 5 | 10 | 15 | 25 |
+```
 
 ## Explanation
 -  How to run it. 
@@ -109,6 +118,16 @@ so create a variable called table | | to start first.
 Then, by repeating the length of primes with the for statement, the list numbers of primes and | are added to the table.
 When all the numbers in primes are added to the table
 | | 2 | 3 | 5 | The first grid is complete. After completion, add a new line to draw the next second grid.
+
+Since the second to fourth grids are combinations of the number 2, 3, and 5 multiples of primes, the table can be created as follows.
+
+![secondgrid](https://user-images.githubusercontent.com/79802132/159289639-c57b1d8d-e96a-44b2-961a-54260661d503.png)
+![thirdgrid](https://user-images.githubusercontent.com/79802132/159290360-99c12369-ce38-44c8-bca1-a4072fd1a43e.png)
+![fourthgrid](https://user-images.githubusercontent.com/79802132/159291003-6fdb2360-798e-4616-be2a-f0a40fd02bd4.png)
+
+If it is greater than the length value of primes, the for statement ends and the function printTable returns the table value.
+
+![Untitled-2022-03-18-1510](https://user-images.githubusercontent.com/79802132/159291615-f1ce8d50-e452-4919-832c-56b3d1cb26f3.png)
 
 
 -  What you’re pleased with. 
