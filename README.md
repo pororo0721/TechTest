@@ -38,5 +38,21 @@ multiples of 2 are: 4, 6, 8, 10..etc.
 multiples of 3 are: 6, 9, 12, 15.. etc. 
 multiples of 5 are: 10, 15, 20, 25..etc.
 
+
+First, create functions that generate the first grid numbers 2, 3, 5 primes and check whether they are prime or not.
+
+```sh
+function generatePrimes(n) {  
+  var primes = [2];
+  var nextPrime = 3;
+  while (primes.length < n) {
+    if (isPrime(nextPrime)) {
+      primes.push(nextPrime);
+    }
+    nextPrime++;
+  }
+  return primes;
+}
+```
 -  What you’re pleased with. 
 -  What you would do with it if you had more time. 
