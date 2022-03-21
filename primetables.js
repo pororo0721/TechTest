@@ -73,7 +73,7 @@ function printTable(primes) {
   }
   table += "\n";
   for (var j = 0; j < primes.length; j++) {
-    table += primes[j] + " | ";
+    table += "|" + primes[j] + " | ";
     for (var k = 0; k < primes.length; k++) {
       table += (primes[j] * primes[k]) + " | ";
     }
@@ -85,7 +85,6 @@ function printTable(primes) {
 // Test
 var primes = generatePrimes(3);
 console.log(printTable(primes));
-
 
 
 
