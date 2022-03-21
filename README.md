@@ -131,4 +131,10 @@ If it is greater than the length value of primes, the for statement ends and the
 
 
 -  What you’re pleased with. 
+
+I've been using algorithms that simply use for loops.
+However, using this opportunity, the product is multiplied symmetrically based on the square root, 
+so I am happy to learn how to check only a small value less than the square root, so that there is no need to check the rest.
+I tried to keep the size of the functions small, and the name of the function is simple to make it clear what function it performs.
+
 -  What you would do with it if you had more time. 
