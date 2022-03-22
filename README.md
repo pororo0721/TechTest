@@ -138,3 +138,11 @@ so I am happy to learn how to check only a small value less than the square root
 I tried to keep the size of the functions small, and the name of the function is simple to make it clear what function it performs.
 
 -  What you would do with it if you had more time. 
+
+I'm reading a book called "Clean Code" these days.
+In the book, it is written that functions should be easy to read, perform only one function, and their length should be small.
+I tried to make each function simple and perform one function, but the function printTable is still long.
+If I have more time, I would like to find a way to shorten this part a little more.
+
+
+
